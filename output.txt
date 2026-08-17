@@ -1,0 +1,64 @@
+Tokens found in the source file:
+
+Identifier  : include
+Operator    : <
+Identifier  : stdio
+Identifier  : h
+Operator    : >
+Keyword     : int
+Identifier  : main
+Separator   : (
+Separator   : )
+Separator   : {
+Keyword     : int
+Identifier  : x
+Operator    : =
+Number      : 15
+Separator   : ;
+Keyword     : int
+Identifier  : y
+Operator    : =
+Number      : 5
+Separator   : ;
+Keyword     : int
+Identifier  : result
+Separator   : ;
+Identifier  : result
+Operator    : =
+Identifier  : x
+Operator    : *
+Identifier  : y
+Separator   : ;
+Keyword     : if
+Separator   : (
+Identifier  : result
+Operator    : >
+Number      : 50
+Separator   : )
+Separator   : {
+Identifier  : printf
+Separator   : (
+String      : "Result is greater than 50"
+Separator   : )
+Separator   : ;
+Separator   : }
+Keyword     : else
+Separator   : {
+Identifier  : printf
+Separator   : (
+String      : "Result is less than or equal to 50"
+Separator   : )
+Separator   : ;
+Separator   : }
+Keyword     : return
+Number      : 0
+Separator   : ;
+Separator   : }
+
+--- Token Count ---
+Keywords     : 7
+Identifiers  : 13
+Numbers      : 4
+Operators    : 7
+Separators   : 21
+Strings      : 2
